@@ -1,0 +1,110 @@
+/* GENERAL */
+.site {
+    display: flex;
+    min-height:100vh;
+    flex-direction: column;
+    background: white url("../images/archM.png") no-repeat fixed bottom;
+    background-size: 100%
+}
+
+.site-content {
+    flex: 1;
+}
+
+.site-footer {
+    height: 70px;
+    width: 100%;
+    font-family: 'Helvetiva Neue', Arial, Helvetica, sans-serif;
+    /* background-color: rgba(51,51,51,0.7); */
+    /* border-top: solid white 0.6px; */
+    text-align: center;
+    padding-top: 30px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12pt;
+}
+
+.nav-text {
+    font-size: 12pt;
+}
+
+.pink-text {
+    color: pink
+}
+
+.white-text {
+    color: white;
+}
+
+/* MAIN NAV */
+#main-nav {
+    display: flex;
+    flex-direction: row;
+    margin: -10pt auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.main-nav-text {
+    color: darkgray;
+}
+
+.main-nav-text:visited {
+    color: darkgray;
+    text-decoration: none;
+}
+
+.main-nav-text:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.main-nav-text:active {
+    color: #cc0099;
+    text-decoration: none;
+}
+
+/* FOOTER */
+#footer-text {
+    font-size: 10pt;
+}
+
+/* LANDING PAGE */
+#landing {
+    background: black url("../images/bgf2.jpg") no-repeat fixed center;
+}
+
+#landing-content {
+    display: flex;
+    flex-direction: row;
+    margin: -10pt auto;
+    margin-top: 30px;
+    justify-content: center;
+}
+
+.landing-nav-text {
+    color: whitesmoke;
+}
+
+.landing-nav-text:visited {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.landing-nav-text:hover {
+    color: pink;
+    text-decoration: none;
+}
+
+.landing-nav-text:active {
+    color: #cc0099;
+    text-decoration: none;
+}
