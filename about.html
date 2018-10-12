@@ -8,10 +8,17 @@
     <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
         crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/png" href="./assets/images/logo/logo.png" />
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main-styles.css" />
     <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
     <title>Neha Pathak</title>
 </head>
 
@@ -27,10 +34,106 @@
     </header>
 
     <section class="site-content">
-        <div class="d-flex justify-content-center">
-            <p> I am a recent graduate from the University of Waterloo, where I majored in Accounting and Financial Management.
-                However, the most important thing
+        <div class="main-container clearfix">
+            <img src="./assets/images/headshot.png" id="about-img" />
+            <p>
+                <span class="attn-text grey-text">Hey there! I guess you're here to learn about me...</span>
+                <br> I'm a fullstack developer (see my
+                <a href="./portfolio.html">portfolio</a>
+                for more on this).
             </p>
+            <p>
+                I love learning new technologies, you could call it a hobby of mine. I have a background in finance, and I learned very quickly
+                that in order to keep up with the ever-evolving environment, I needed to get tech-savvy. So I focused on
+                learning programming languages to help build and maintain apps.
+            </p>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action" id="list-facts-list" data-toggle="list" href="#list-facts" role="tab"
+                            aria-controls="facts">Fun Facts</a>
+                        <a class="list-group-item list-group-item-action" id="list-langs-list" data-toggle="list" href="#list-langs" role="tab" aria-controls="langs">Skills + Languages</a>
+                        <a class="list-group-item list-group-item-action active" id="list-links-list" data-toggle="list" href="#list-links" role="tab" aria-controls="links">Relevant Links</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade" id="list-facts" role="tabpanel" aria-labelledby="list-facts-list">
+                            <p class="no-top-margin">
+                                <span class="attn-text grey-text">Below are some fun facts about me:</span>
+                                <br>...
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> My favourite programming language is JavaScript.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I'm bilingual (a second language I speak is Hindi)
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I love graphic design (I hope it shows)!
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I graduated from the University of Waterloo with a Bachelor's of Accounting
+                                        and Finance just this past year!
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I love to volunteer as a teacher/mentor (I mentor for courses on front-end design)
+                                        in my spare time.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> My favourite book series is Harry Potter.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-langs" role="tabpanel" aria-labelledby="list-langs-list">
+                            <p class="no-top-margin">
+                                <span class="attn-text grey-text">Skills/Languages</span>
+                                <br>...
+                                <ul>
+                                    <li class="tabs">
+                                        <i class="fas fa-database"></i>
+                                        <span class="attn-text">Backend</span>
+                                        <br> SQL, MongoDB, NodeJS, ReactJS, ExpressJS, Python
+                                    </li>
+                                    <li class="tabs">
+                                        <i class="fas fa-desktop"></i>
+                                        <span class="attn-text">Frontend</span>
+                                        <br> HTML, CSS, JavaScript, AJAX, jQuery, Bootstrap
+                                    </li>
+                                    <li class="tabs">
+                                        <i class="fas fa-pen-fancy"></i>
+                                        <span class="attn-text">Adobe Create Suite</span>
+                                        <br> Photoshop, Illustrator, Flash
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade show active" id="list-links" role="tabpanel" aria-labelledby="list-links-list">
+                            <p class="no-top-margin">
+                                    <span class="attn-text grey-text">Find me at:</span>
+                                    <ul>
+                                        <li class="tabs">
+                                            <i class="fab fa-github"></i>
+                                            <a href="https://www.github.com/pathak-neha" target="_blank" class="rel-links">Github</a>
+                                        </li>
+                                        <li class="tabs">
+                                            <i class="fab fa-linkedin"></i>
+                                            <a href="https://www.linkedin.com/in/neha-rpathak" target="_blank" class="rel-links">LinkedIn</a>
+                                        </li>
+                                        <li class="tabs">
+                                            <i class="fas fa-envelope"></i>
+                                            <a href="mailto:neha.pathak@hotmail.com" target="_blank" class="rel-links">Email</a>
+                                        </li>
+                                    </ul>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
         </div>
     </section>
 
