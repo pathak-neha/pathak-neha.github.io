@@ -97,6 +97,10 @@
     display: table;
 }
 
+.overflow-hidden {
+    overflow: hidden;
+}
+
 /*  --- ELEMENTS --- */
 /* text */
 p {
@@ -255,6 +259,17 @@ a {
     width: 200px;
     float: left;
     margin: 20px;
+}
+
+/* contact-me units */
+.contact-unit {
+    max-width: 100px;
+    height: 30px;
+    background: #ffffff;
+    margin: 10px;
+    padding-top: 10px;
+    text-align: center; 
+    color: #cc0099;
 }
 
 /* list-group */

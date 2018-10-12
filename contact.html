@@ -20,6 +20,8 @@
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
 
     <!-- Links Specific to Contact Form -->
     <script src="./UnbrandedForm/contactformvalidation.js"></script>
@@ -44,8 +46,25 @@
     </header>
 
     <section class="site-content">
-        <div class="main-container">
-            <form name="contactform" method="post" action="./UnbrandedForm/contactformprocess.php" onsubmit="return validate.check(this)">
+        <div class="main-container overflow-hidden">
+            <p class="d-flex attn-text grey-text justify-content-center">
+                FIND ME AT:
+            </p>
+            <div class="d-flex justify-content-center">
+                <div class="contact-unit">
+                    <i class="fab fa-github"></i>
+                    <a href="https://www.github.com/pathak-neha" target="_blank" class="rel-links">Github</a>
+                </div>
+                <div class="contact-unit">
+                    <i class="fab fa-linkedin"></i>
+                    <a href="https://www.linkedin.com/in/neha-rpathak" target="_blank" class="rel-links">LinkedIn</a>
+                </div>
+                <div class="contact-unit">
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:neha.pathak@hotmail.com" target="_blank" class="rel-links">Email</a>
+                </div>
+            </div>
+            <!-- <form name="contactform" method="post" action="./UnbrandedForm/contactformprocess.php" onsubmit="return validate.check(this)">
                 <table width="400px" class="contactform">
                     <tr>
                         <td colspan="2">
@@ -119,7 +138,7 @@
                         </td>
                     </tr>
                 </table>
-            </form>
+            </form> -->
         </div>
     </section>
 
