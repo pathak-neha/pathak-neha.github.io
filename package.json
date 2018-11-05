@@ -1,0 +1,26 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio to display my projects",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pathak-neha/portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "node"
+  ],
+  "author": "Neha Pathak",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pathak-neha/portfolio/issues"
+  },
+  "homepage": "https://github.com/pathak-neha/portfolio#readme",
+  "dependencies": {
+    "particlesjs": "^2.2.3"
+  }
+}
