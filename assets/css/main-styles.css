@@ -3,7 +3,7 @@
     display: flex;
     min-height:100vh;
     flex-direction: column;
-    background: white url("../images/background/archM.png") no-repeat fixed bottom;
+    background: #0b032d no-repeat fixed bottom;
     background-size: 100%
 }
 .site-content {
@@ -80,7 +80,6 @@
 /* SITE CONTENT -------------------------------------------------- */
 /* --- MAIN --- */
 .main-container {
-    background: #ffffff80;
     margin: 0 auto;
     margin-top: 100px;
     max-width: 700px;
@@ -265,21 +264,15 @@ a {
 .contact-unit {
     max-width: 100px;
     height: 30px;
-    background: #ffffff;
     margin: 10px;
     padding-top: 10px;
     text-align: center; 
-    color: #cc0099;
+    color: #ffb997;
 }
 
 /* list-group */
 .list-group .list-group-item {
-    background-color: #fff;
-    border-top: 1px solid darkgray;
-    border-left: 0px solid;
-    border-right: 0px solid;
-    border-bottom: 1px solid darkgray;
-    color: black;
+    color: #fff;
   }
   
   .list-group .list-group-item:hover {
