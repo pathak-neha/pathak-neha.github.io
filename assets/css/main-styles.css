@@ -19,6 +19,7 @@
     margin: -10pt auto;
     margin-top: 30px;
     justify-content: center;
+    font-size: 12px;
 }
 
 
@@ -181,13 +182,6 @@ a {
     ::-webkit-scrollbar-thumb:hover {
         background: #555; 
     }
-
-/* headshot */
-#about-img {
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto
-}
 
 /* contact-me units */
 .contact-unit {
