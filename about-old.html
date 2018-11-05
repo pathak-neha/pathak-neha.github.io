@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
+        crossorigin="anonymous" />
+    <link rel="shortcut icon" type="image/png" href="./assets/images/logo/logo.png" />
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="screen" href="./assets/css/main-styles.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em"
+        crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Gravitas+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+        crossorigin="anonymous">
+    <title>Neha Pathak</title>
+</head>
+
+<body class="site">
+    <header class="clearfix" id="main-nav">
+        <h1 class="nav-text pink-text">
+            <a class="main-nav-text" href="./about.html">ABOUT</a>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <a class="main-nav-text" href="./portfolio.html">PORTFOLIO</a>
+            &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+            <a class="main-nav-text" href="./contact.html">CONTACT</a>
+        </h1>
+    </header>
+
+    <section class="site-content">
+        <div class="main-container clearfix">
+            <!-- <img src="./assets/images/headshot.png" id="about-img" /> -->
+            <p style="text-align: center; font-family: 'Pacifico', cursive; font-size:24px">
+                An ex-accountant, and now a full-stack developer and data whiz.
+            </p>
+
+            <div class="row">
+                <div class="col-4">
+                    <div class="list-group list-group-flush" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action" id="list-facts-list" data-toggle="list" href="#list-facts" role="tab"
+                            aria-controls="facts">Fun Facts</a>
+                        <a class="list-group-item list-group-item-action" id="list-langs-list" data-toggle="list" href="#list-langs" role="tab" aria-controls="langs">Skills + Languages</a>
+                        <a class="list-group-item list-group-item-action active" id="list-links-list" data-toggle="list" href="#list-links" role="tab" aria-controls="links">Relevant Links</a>
+                    </div>
+                </div>
+                <div class="col-8">
+                    <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade" id="list-facts" role="tabpanel" aria-labelledby="list-facts-list">
+                            <p class="no-top-margin">
+                                <ul>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> My favourite programming language is JavaScript.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I'm bilingual (a second language I speak is Hindi)
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I love graphic design (I hope it shows)!
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I graduated from the University of Waterloo with a Bachelor's of Accounting
+                                        and Finance just this past year!
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> I love to volunteer as a teacher/mentor (I mentor for courses on front-end design)
+                                        in my spare time.
+                                    </li>
+                                    <li>
+                                        <i class="fas fa-chevron-right"></i> My favourite book series is Harry Potter.
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-langs" role="tabpanel" aria-labelledby="list-langs-list">
+                            <p class="no-top-margin">
+                                <span class="attn-text ">Skills/Languages</span>
+                                <ul>
+                                    <li class="tabs">
+                                        <i class="fas fa-database"></i>
+                                        <span class="attn-text">Backend</span>
+                                        <br> SQL, MongoDB, NodeJS, ReactJS, ExpressJS, Python
+                                    </li>
+                                    <li class="tabs">
+                                        <i class="fas fa-desktop"></i>
+                                        <span class="attn-text">Frontend</span>
+                                        <br> HTML, CSS, JavaScript, AJAX, jQuery, Bootstrap
+                                    </li>
+                                    <li class="tabs">
+                                        <i class="fas fa-pen-fancy"></i>
+                                        <span class="attn-text">Adobe Create Suite</span>
+                                        <br> Photoshop, Illustrator, Flash
+                                    </li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="tab-pane fade show active" id="list-links" role="tabpanel" aria-labelledby="list-links-list">
+                            <p class="no-top-margin">
+                                    <span class="attn-text ">Find me at:</span>
+                                    <ul>
+                                        <li class="tabs">
+                                            <i class="fab fa-github"></i>
+                                            <a href="https://www.github.com/pathak-neha" target="_blank" class="rel-links">Github</a>
+                                        </li>
+                                        <li class="tabs">
+                                            <i class="fab fa-linkedin"></i>
+                                            <a href="https://www.linkedin.com/in/neha-rpathak" target="_blank" class="rel-links">LinkedIn</a>
+                                        </li>
+                                        <li class="tabs">
+                                            <i class="fab fa-behance-square"></i>
+                                            <a href="https://www.behance.net/pathak-neha" target="_blank" class="rel-links">Behance</a>
+                                        </li>
+                                    </ul>
+                                </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <footer class="site-footer white-text">
+        <p id="footer-text">Neha Pathak, 2018</p>
+    </footer>
+</body>
+
+</html>

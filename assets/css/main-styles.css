@@ -12,41 +12,6 @@
 }
 /* ---------------------------------------------------------- fin. */
 
-
-/* LANDING PAGE -------------------------------------------------- */
-#landing {
-    background: black url("../images/background/bgf2.jpg") no-repeat fixed center;
-}
-
-#landing-content {
-    display: flex;
-    flex-direction: row;
-    margin: -10pt auto;
-    margin-top: 30px;
-    justify-content: center;
-}
-
-.landing-nav-text {
-    color: whitesmoke;
-}
-
-    .landing-nav-text:visited {
-        color: whitesmoke;
-        text-decoration: none;
-    }
-
-    .landing-nav-text:hover {
-        color: pink;
-        text-decoration: none;
-    }
-
-    .landing-nav-text:active {
-        color: #cc0099;
-        text-decoration: none;
-    }
-/* ---------------------------------------------------------- fin. */
-
-
 /* HEADER -------------------------------------------------------- */
 #main-nav {
     display: flex;
@@ -56,22 +21,23 @@
     justify-content: center;
 }
 
+
 .main-nav-text {
-    color: darkgray;
+    color: #fff;
 }
 
 .main-nav-text:visited {
-    color: darkgray;
+    color: #fff;
     text-decoration: none;
 }
 
 .main-nav-text:hover {
-    color: pink;
+    color: #ffb997;
     text-decoration: none;
 }
 
 .main-nav-text:active {
-    color: #cc0099;
+    color: #843b62;
     text-decoration: none;
 }
 /* ---------------------------------------------------------- fin. */
@@ -106,12 +72,14 @@ p {
     margin: 10px;
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
+    color: white
 }
 
-ul {
+ul, li, i {
     /* list-style-type: square; */
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
+    color: white
 }
 
 .tabs {
@@ -128,33 +96,26 @@ ul {
     font-weight: bold;
 }
 
-.nav-text {
-    font-size: 12pt;
-}
 
 .pink-text {
-    color: pink
+    color: #f67e7d
 }
 
 .white-text {
     color: white;
 }
 
-.grey-text {
-    color: darkgray;
-}
-
 a {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
-    color: #cc0066;
+    color: #f67e7d;
     text-decoration: none;
 }
 
     a:visited {
         font-family: 'Roboto', sans-serif;
         font-size: 12pt;
-        color: #cc0066;
+        color: #f67e7d;
         text-decoration: none;
     }
 
@@ -162,7 +123,7 @@ a {
         font-family: 'Roboto', sans-serif;
         font-size: 12pt;
         font-weight: bold;
-        color: #cc0099;
+        color: #ffb997;
         text-decoration: none;
     }
 
@@ -171,52 +132,21 @@ a {
         font-family: 'Roboto', sans-serif;
         font-size: 12pt;
         font-weight: bold;
-        color: #000000;
-        text-decoration: none;
-    }
-
-a {
-    font-family: 'Roboto', sans-serif;
-    font-size: 12pt;
-    color: #cc0066;
-    text-decoration: none;
-}
-
-    a:visited {
-        font-family: 'Roboto', sans-serif;
-        font-size: 12pt;
-        color: #cc0066;
-        text-decoration: none;
-    }
-
-    a:hover {
-        font-family: 'Roboto', sans-serif;
-        font-size: 12pt;
-        font-weight: bold;
-        color: #cc0099;
-        text-decoration: none;
-    }
-
-
-    a:active {
-        font-family: 'Roboto', sans-serif;
-        font-size: 12pt;
-        font-weight: bold;
-        color: #000000;
+        color: #843b62;
         text-decoration: none;
     }
 
 .rel-links {
     font-family: 'Roboto', sans-serif;
     font-size: 12pt;
-    color: #000000;
+    color: white;
     text-decoration: none;
 }
 
     .rel-links:visited {
         font-family: 'Roboto', sans-serif;
         font-size: 12pt;
-        color: #000000;
+        color: white;
         text-decoration: none;
     }
 
@@ -224,7 +154,7 @@ a {
         font-family: 'Roboto', sans-serif;
         font-size: 12pt;
         font-weight: bold;
-        color: darkgrey;
+        color: #ffb997;
         text-decoration: none;
     }
 
@@ -232,7 +162,7 @@ a {
         font-family: 'Roboto', sans-serif;
         font-size: 12pt;
         font-weight: bold;
-        color: #cc0099;
+        color: #843b62;
         text-decoration: none;
     }
     
@@ -256,8 +186,8 @@ a {
 /* headshot */
 #about-img {
     width: 200px;
-    float: left;
-    margin: 20px;
+    margin-left: auto;
+    margin-right: auto
 }
 
 /* contact-me units */
@@ -271,13 +201,9 @@ a {
 }
 
 /* list-group */
-.list-group .list-group-item {
+.list-group .list-group-flush.list-group-item {
+    background: #0b032d0;
     color: #fff;
-  }
-  
-  .list-group .list-group-item:hover {
-    background-color: #cc0099;
-    color: #fff
   }
 /* ---------------------------------------------------------- fin. */
 
