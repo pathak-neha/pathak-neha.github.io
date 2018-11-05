@@ -96,7 +96,6 @@ ul, li, i {
     font-weight: bold;
 }
 
-
 .pink-text {
     color: #f67e7d
 }
@@ -202,7 +201,6 @@ a {
 
 /* list-group */
 .list-group .list-group-flush.list-group-item {
-    background: #0b032d0;
     color: #fff;
   }
 /* ---------------------------------------------------------- fin. */
